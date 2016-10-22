@@ -1,4 +1,4 @@
-package buySellGold_algorithm;
+package buySellGold;
 
 //Solution structure
 public class BestDays {

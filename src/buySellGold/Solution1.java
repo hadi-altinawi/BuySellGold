@@ -1,4 +1,4 @@
-package buySellGold_algorithm;
+package buySellGold;
 
 /*
  * This Solution find the best day to buy and the best day to sell, just one!
@@ -6,11 +6,11 @@ package buySellGold_algorithm;
 
 public class Solution1 {
 	
-	private int [] goldPrices;
-	private int buyDay;
-	private int sellDay;
-	private int bestProfit;
-	private boolean thereIsProfit;
+	private int [] goldPrices;// Vector holds gold prices
+	private int buyDay;// Best day to buy
+	private int sellDay;// Best day to sell
+	private int bestProfit;// Variable used to find best profit I can have it.
+	private boolean thereIsProfit;// To check if there is profit or loss
 	
 	public Solution1(int [] prices) {
 		// TODO Auto-generated constructor stub
@@ -34,7 +34,7 @@ public class Solution1 {
 		
 	}
 	
-	//Find best days to buy and sell
+	//Find best days to buy and sell regarding to the highest profit I can found
 	private void findDays() {
 		// TODO Auto-generated method stub
 		

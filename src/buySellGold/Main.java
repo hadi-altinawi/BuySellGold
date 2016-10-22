@@ -1,4 +1,4 @@
-package buySellGold_algorithm;
+package buySellGold;
 
 import java.util.ArrayList;
 
@@ -21,12 +21,14 @@ public class Main {
 	    
 	    int prices6[]= {1}; // There is no solution
 	     
-	  /*  Solution1 solution1= new Solution1(prices5);
+	    //Solution1 is finding best day to buy and best day to sell 
+	    Solution1 solution1= new Solution1(prices5);
 	    
 	    System.out.println("Buy day is : " + solution1.getBuyDay() +
 	    		" and sell day is : " + solution1.getSellDay());
-	    		*/
+	    		
 	    
+	  //Solution2 is finding best days to buy and best days to sell 
 	    Solution2 solution2 = new Solution2(prices);
 	    
 	    ArrayList<BestDays> days = solution2.getBuySellDays();

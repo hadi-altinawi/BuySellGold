@@ -1,15 +1,19 @@
-package buySellGold_algorithm;
+package buySellGold;
 
 import java.util.ArrayList;
 
+/*
+ * This Solution find the best days to buy and the best days to sell
+ */
+
 public class Solution2 {
 	
-	private int [] goldPrices;
-	private int buyDay;
-	private int sellDay;
-	private int bestProfit;
-	private boolean thereIsProfit;
-	private ArrayList<BestDays> buySellDaysArray;
+	private int [] goldPrices;// Vector holds gold prices
+	private int buyDay;// Best day to buy
+	private int sellDay;// Best day to sell
+	private int bestProfit;// Variable used to find best profit I can have it.
+	private boolean thereIsProfit;// To check if there is profit or loss
+	private ArrayList<BestDays> buySellDaysArray;//Array of BestDays objects to save best days to buy and sell
 	
 	public Solution2(int [] prices) {
 		// TODO Auto-generated constructor stub
