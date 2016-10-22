@@ -6,4 +6,4 @@ You have to buy exactly once and sell exactly once, after the day you buy. The o
 
 There are two solutions:
 1-Find the best day to buy and best day to sell, once!
-2-Find best days to buy and best days to sell.
+2-Find best days to buy and best days to sell. This solution is O(n^2).
